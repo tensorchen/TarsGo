@@ -44,7 +44,6 @@ func (a *Admin) Notify(command string) (string, error) {
 		}
 		return fmt.Sprintf("%s succ", command), nil
 	case "tars.dumpstack":
-		debugutil.DumpStack(true, "stackinfo")
 		return fmt.Sprintf("%s succ", command), nil
 	case "tars.loadconfig":
 		cfg := GetServerConfig()
