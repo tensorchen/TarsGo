@@ -2,8 +2,6 @@ package main
 
 import (
 	"github.com/TarsCloud/TarsGo/tars"
-
-	"_APP_"
 )
 
 func main() { //Init servant
